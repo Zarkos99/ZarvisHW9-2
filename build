@@ -1,0 +1,4 @@
+#!/bin/bash
+#This is a bash script to compile the C++ Analogin class files.
+
+g++ Analogin.cpp read_resistance.cpp -o read_resistance
